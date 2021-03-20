@@ -61,7 +61,6 @@ function deleteTask(index){
     showTasks();
 }
 
-//delete all function...
 deleteAllBtn.onclick = ()=>{
     let getLocalStorageData = localStorage.getItem("New Todo");
     if(getLocalStorageData == null){
